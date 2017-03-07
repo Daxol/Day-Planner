@@ -1,0 +1,125 @@
+
+.root {
+	-fx-spacing: 25.0;
+	-fx-background-color:#ccccff;
+	
+	
+	
+}
+.my_customLabel {
+	-fx-font-size:40.0px;
+}
+.date_task{
+	-fx-font-size: 26.0px;
+	-fx-font-weight: bold;
+	-fx-text-alignment: right;
+	-fx-padding:20.0px;
+}
+.button {
+	
+	-fx-font-family: "Arial";
+	-fx-font-size: 16.0px;
+	-fx-font-weight: bold;
+	-fx-background-color: linear-gradient(#9fAfff, #61Afff);
+	-fx-text-fill:#383640;
+	-fx-alignment:center;
+	
+}  
+.label{
+	-fx-font-family: "Arial";
+	-fx-font-size: 14.0px;
+	-fx-font-weight: bold;
+	-fx-alignment:center;
+	
+}
+
+.button:hover{
+	-fx-background-color: linear-gradient(#2AA7E5, #61A2B1);
+	-fx-text-fill:#fff;
+}
+.text-area {
+	-fx-border-width:0px,0px,3px,0px;
+	-fx-border-color:black;
+	
+}
+.hbox {
+    -fx-background-color: #2f4f4f;
+    -fx-padding: 10;
+    -fx-spacing: 16;
+    -fx-background-color: linear-gradient(to bottom, #f5ffd6 0%,#e6e8ed 99%,#000000 100%); 
+      
+    
+}
+.hbox_description {
+    -fx-background-color: #2f4f4f;
+    -fx-padding: 15;
+    -fx-spacing: 18; 
+    
+    -fx-background-color: linear-gradient(to bottom, #f5ffd6 0%,#e6e8ed 99%,#000000 100%); 
+    
+}
+.hbox_description1 {
+    -fx-background-color: #ccccff;
+  
+    -fx-background-color: linear-gradient(to bottom, #ccccff 0%,#e6e8ed 99%,#000000 100%); 
+    
+}
+.text_description {
+	-fx-text-alignment: right;
+	
+}
+.default_bg {
+	-fx-background-color: #336699;
+}
+.check_btn{
+		-fx-background-color:
+        linear-gradient(#f0ff35, #000),
+        radial-gradient(center 50.0% -40.0%, radius 200.0%, #b8ee36 45.0%, #80c800 50.0%);
+			
+	-fx-background-radius: 40.0;	
+	-fx-node-vpos:page-end;
+}
+.check_btn:hover{
+		-fx-background-color:
+        linear-gradient(#7FFF00, #000),
+        radial-gradient(center 50.0% -40.0%, radius 200.0%,  #76EE00 45.0%,#7FFF00 50.0%);
+			
+	-fx-background-radius: 40.0;	
+}
+
+.del_btn{
+		-fx-background-color:
+        linear-gradient(#f0ff35, #000),
+        radial-gradient(center 50.0% -40.0%, radius 200.0%, #ff0000 45.0%, #e50000 50.0%);
+			
+	-fx-background-radius: 40.0;	
+}
+.del_btn:hover{
+		-fx-background-color:
+        linear-gradient(#7FFF00, #000),
+        radial-gradient(center 50.0% -40.0%, radius 200.0%,  #e40000 45.0%,#ff1919 50.0%);
+			
+	-fx-background-radius: 40.0;	
+}
+
+.text-area {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal ,
+
+ .scroll-bar:vertical{
+
+    -fx-background-color:transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
